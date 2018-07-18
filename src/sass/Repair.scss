@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import 'var.scss';
+$zero:0px;
+$n:none;
+$b:block;
+
+.container{
+    @media (min-width: 768px) {
+        width: 750px;}
+        @media (min-width: 992px) {
+        width: 970px;}
+        @media (min-width: 1200px) {
+        width: 1000px;}
+    
+}
+
+.repair{
+    .header{
+        padding:0 30px;
+        h2{
+            font-size:30px;
+            margin-top: 40px;
+            margin-bottom: 23px;
+            padding-left:17px;
+            border-left:3px solid #333333;
+        }
+        p{
+            font-size: 13px;
+            line-height: 21px;
+            margin: 0;
+        }
+        .middleImg{
+            margin:0 20px;
+        }
+        .topImg{
+            margin-bottom:20px;
+            margin-top:10px;
+        }
+    }
+}

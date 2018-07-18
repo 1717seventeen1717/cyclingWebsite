@@ -1,0 +1,403 @@
+{
+  "homeCarousel": [
+    {
+      "id": 1,
+      "image": "http://localhost:3000/home/lunbo01.jpg"
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:3000/home/lunbo02.jpg"
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:3000/home/lunbo03.jpg"
+    },
+    {
+      "id": 4
+    }
+  ],
+  "homeNewProduct": [
+    {
+      "id": 1,
+      "url": "http://localhost:3000/home/newpro_1.jpg",
+      "title": "GIANT/捷安特 TCR ADVANCED PRO 1",
+      "price": 18800
+    },
+    {
+      "id": 2,
+      "url": "http://localhost:3000/home/newpro_2.jpg",
+      "title": "GIANT/捷安特 TCR ADVANCED PRO 2",
+      "price": 18800
+    },
+    {
+      "id": 3,
+      "url": "http://localhost:3000/home/newpro_3.jpg",
+      "title": "GIANT/捷安特 TCR ADVANCED PRO 3",
+      "price": 18800
+    },
+    {
+      "id": 4,
+      "url": "http://localhost:3000/home/newpro_2.jpg",
+      "title": "GIANT/捷安特 TCR ADVANCED PRO 4",
+      "price": 18800
+    },
+    {
+      "id": 5,
+      "url": "http://localhost:3000/home/newpro_3.jpg",
+      "title": "GIANT/捷安特 TCR ADVANCED PRO 5",
+      "price": 18800
+    }
+  ],
+  "homeNewsCenter": [
+    {
+      "id": 1,
+      "url": "http://localhost:3000/home/news_1.jpg",
+      "title": "水面浮油的另类美感由Rapha Crit梦幻骑行套装演绎",
+      "dec": "新款Crit系列从水面浮油中获得灵感，采用的彩虹般的面料，辅以高反水面哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "id": 2,
+      "url": "http://localhost:3000/home/news_2.jpg",
+      "title": "喜大普奔 ！UCI器材委员会将解禁公路碟刹！",
+      "dec": "今日，自行车品牌商陆续收到一封UCI器材委员会的官方邮件。"
+    },
+    {
+      "id": 3,
+      "url": "http://localhost:3000/home/news_3.jpg",
+      "title": "谈谈女权Specialized收购女子骑行服品牌",
+      "dec": "SpeciaLized宣布收购美国女子骑行服品牌Machines for FreeDom（自由机叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽"
+    }
+  ],
+<<<<<<< HEAD
+  "productCenter":[
+    {
+      "id":1,
+      "url":"http://localhost:3000/ProductList/2产品列表页_05.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2",
+      "type":"山地车"
+    },
+    {
+      "id":2,
+      "url":"http://localhost:3000/ProductList/2产品列表页_07.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"3",
+      "type":"山地车"
+    },
+    {
+      "id":3,
+      "url":"http://localhost:3000/ProductList/2产品列表页_09.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"4",
+      "type":"山地车"
+    },
+    {
+      "id":4,
+      "url":"http://localhost:3000/ProductList/2产品列表页_14.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"5998",
+      "type":"山地车"
+    },
+    {
+      "id":5,
+      "url":"http://localhost:3000/ProductList/2产品列表页_15.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"山地车"
+    },
+    {
+      "id":6,
+      "url":"http://localhost:3000/ProductList/2产品列表页_16.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"山地车"
+    },
+    {
+      "id":7,
+      "url":"http://localhost:3000/ProductList/2产品列表页_14.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"公路车"
+    },
+    {
+      "id":8,
+      "url":"http://localhost:3000/ProductList/2产品列表页_15.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"3998",
+      "type":"公路车"
+    },
+    {
+      "id":9,
+      "url":"http://localhost:3000/ProductList/2产品列表页_16.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"4998",
+      "type":"公路车"
+    },
+    {
+      "id":10,
+      "url":"http://localhost:3000/ProductList/2产品列表页_20.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"5998",
+      "type":"公路车"
+    },
+    {
+      "id":11,
+      "url":"http://localhost:3000/ProductList/2产品列表页_22.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"公路车"
+    },
+    {
+      "id":12,
+      "url":"http://localhost:3000/ProductList/2产品列表页_23.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"公路车"
+    },
+    {
+      "id":13,
+      "url":"http://localhost:3000/ProductList/2产品列表页_05.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"折叠车"
+    },
+    {
+      "id":14,
+      "url":"http://localhost:3000/ProductList/2产品列表页_07.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"3998",
+      "type":"折叠车"
+    },
+    {
+      "id":15,
+      "url":"http://localhost:3000/ProductList/2产品列表页_09.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"4998",
+      "type":"折叠车"
+    },
+    {
+      "id":16,
+      "url":"http://localhost:3000/ProductList/2产品列表页_14.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"5998",
+      "type":"折叠车"
+    },
+    {
+      "id":17,
+      "url":"http://localhost:3000/ProductList/2产品列表页_15.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"折叠车"
+    },
+    {
+      "id":18,
+      "url":"http://localhost:3000/ProductList/2产品列表页_16.jpg",
+      "title":"GIANT/捷安特 ATX 870",
+      "price":"2998",
+      "type":"折叠车"
+    }
+  ],
+=======
+<<<<<<< HEAD
+  "RidingStyleTOP" :[
+    {
+      "id": 1,
+      "url": "http://localhost:3000/RidingStyle/1.jpg",
+      "title": "上把位示意图"
+    },{
+      "id": 2,
+      "url": "http://localhost:3000/RidingStyle/2.jpg",
+      "title": "日常训练或大集团骑行时，通常使用上把位"
+    },{
+      "id": 3,
+      "url": "http://localhost:3000/RidingStyle/3.jpg",
+      "title": "上把位是摇车爬坡的最佳搭配"
+    }
+  ],
+  "RidingStyleBOT" :[
+    {
+      "id": 1,
+      "url": "http://localhost:3000/RidingStyle/4.jpg",
+      "title": "下把位示意图"
+    },{
+      "id": 2,
+      "url": "http://localhost:3000/RidingStyle/5.jpg",
+      "title": "下把位是职业车手最喜欢的握把姿势"
+    },{
+      "id": 3,
+      "url": "http://localhost:3000/RidingStyle/6.jpg",
+      "title": "下把位适用于高速（多弯）下坡"
+    },{
+      "id": 4,
+      "url": "http://localhost:3000/RidingStyle/7.jpg",
+      "title": "平路（摇车）冲刺最常使用下把位"
+    }
+  ],
+  "RidingStyleHOP" :[
+    {
+      "id": 1,
+      "url": "http://localhost:3000/RidingStyle/8.jpg",
+      "title": "横把位示意图"
+    },{
+      "id": 2,
+      "url": "http://localhost:3000/RidingStyle/9.jpg",
+      "title": "长距离爬坡时经常使用横把位"
+    },{
+      "id": 3,
+      "url": "http://localhost:3000/RidingStyle/10.jpg",
+      "title": "横把位是低速休闲骑的好伙伴"
+=======
+>>>>>>> 6cf9f6c6057c1d21dd952a31c2c057f920980482
+  "newsCenter": [
+    {
+      "id": 1,
+      "url": "http://localhost:3000/home/news_1.jpg",
+      "title": "水面浮油的另类美感由Rapha Crit梦幻骑行套装演绎",
+      "dec": "新款Crit系列从水面浮油中获得灵感，采用的彩虹般的面料，辅以高反水面哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "id": 2,
+      "url": "http://localhost:3000/home/news_2.jpg",
+      "title": "喜大普奔 ！UCI器材委员会将解禁公路碟刹！",
+      "dec": "今日，自行车品牌商陆续收到一封UCI器材委员会的官方邮件。"
+    },
+    {
+      "id": 3,
+      "url": "http://localhost:3000/home/news_3.jpg",
+      "title": "谈谈女权Specialized收购女子骑行服品牌",
+      "dec": "SpeciaLized宣布收购美国女子骑行服品牌Machines for FreeDom（自由机叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽"
+    },
+    {
+      "id": 4,
+      "url": "http://localhost:3000/home/news_1.jpg",
+      "title": "水面浮油的另类美感由Rapha Crit梦幻骑行套装演绎",
+      "dec": "新款Crit系列从水面浮油中获得灵感，采用的彩虹般的面料，辅以高反水面哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "id": 5,
+      "url": "http://localhost:3000/home/news_2.jpg",
+      "title": "喜大普奔 ！UCI器材委员会将解禁公路碟刹！",
+      "dec": "今日，自行车品牌商陆续收到一封UCI器材委员会的官方邮件。"
+    },
+    {
+      "id": 6,
+      "url": "http://localhost:3000/home/news_3.jpg",
+      "title": "谈谈女权Specialized收购女子骑行服品牌",
+      "dec": "SpeciaLized宣布收购美国女子骑行服品牌Machines for FreeDom（自由机叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽"
+    },
+    {
+      "id": 7,
+      "url": "http://localhost:3000/home/news_1.jpg",
+      "title": "水面浮油的另类美感由Rapha Crit梦幻骑行套装演绎",
+      "dec": "新款Crit系列从水面浮油中获得灵感，采用的彩虹般的面料，辅以高反水面哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "id": 8,
+      "url": "http://localhost:3000/home/news_2.jpg",
+      "title": "喜大普奔 ！UCI器材委员会将解禁公路碟刹！",
+      "dec": "今日，自行车品牌商陆续收到一封UCI器材委员会的官方邮件。"
+    },
+    {
+      "id": 9,
+      "url": "http://localhost:3000/home/news_3.jpg",
+      "title": "谈谈女权Specialized收购女子骑行服品牌",
+      "dec": "SpeciaLized宣布收购美国女子骑行服品牌Machines for FreeDom（自由机叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽"
+    },
+    {
+      "id": 10,
+      "url": "http://localhost:3000/home/news_1.jpg",
+      "title": "水面浮油的另类美感由Rapha Crit梦幻骑行套装演绎",
+      "dec": "新款Crit系列从水面浮油中获得灵感，采用的彩虹般的面料，辅以高反水面哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "id": 11,
+      "url": "http://localhost:3000/home/news_2.jpg",
+      "title": "喜大普奔 ！UCI器材委员会将解禁公路碟刹！",
+      "dec": "今日，自行车品牌商陆续收到一封UCI器材委员会的官方邮件。"
+    },
+    {
+      "id": 12,
+      "url": "http://localhost:3000/home/news_3.jpg",
+      "title": "谈谈女权Specialized收购女子骑行服品牌",
+      "dec": "SpeciaLized宣布收购美国女子骑行服品牌Machines for FreeDom（自由机叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽叽"
+    }
+  ],
+  "user": [
+    {
+      "email": "112233@123.com",
+      "password": "123456"
+    }
+  ],
+  "forumInfo": [
+    {
+      "tid": "b094e521bd8a42c4bcd08d830f57fe90",
+      "ttitle": "?67岁正当年，千里骑行莫等闲,千里201国道，独揽东三省",
+      "tcon": "千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省",
+      "timg": "http://localhost:3000/forum/forum_01.jpg",
+      "uid": "1",
+      "tbUser": {
+        "uid": "1",
+        "password": "123",
+        "uage": 18,
+        "ubirthday": -27079776000000,
+        "uphone": "13111111111",
+        "uemail": "qwe",
+        "usex": "male",
+        "vip": "1",
+        "headlike": "http://localhost:3000/QXRM/d.jpg",
+        "qid": "1",
+        "uname": "猫哥"
+      },
+      "peoplelike": 0,
+      "peoplewatch": 0,
+      "tdate": 1531073297715
+    },
+    {
+      "tid": "b094e521bd8a42c4bcd08d830f57fe91",
+      "ttitle": "17岁正当年，千里骑行莫等闲,千里201国道，独揽东三省",
+      "tcon": "千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省",
+      "timg": "http://localhost:3000/forum/forum_02.jpg",
+      "uid": "1",
+      "tbUser": {
+        "uid": "1",
+        "password": "123",
+        "uage": 18,
+        "ubirthday": -27079776000000,
+        "uphone": "13111111111",
+        "uemail": "qwe",
+        "usex": "male",
+        "vip": "1",
+        "headlike": "http://localhost:3000/forum/forum_02.jpg",
+        "qid": "1",
+        "uname": "da"
+      },
+      "peoplelike": 0,
+      "peoplewatch": 0,
+      "tdate": 1531073297715
+    },
+    {
+      "tid": "b094e521bd8a42c4bcd08d830f57fe91",
+      "ttitle": "117岁正当年，千里骑行莫等闲,千里201国道，独揽东三省",
+      "tcon": "千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省千里骑行莫等闲,千里201国道，独揽东三省",
+      "timg": "http://localhost:3000/forum/forum_03.jpg",
+      "uid": "1",
+      "tbUser": {
+        "uid": "1",
+        "password": "123",
+        "uage": 18,
+        "ubirthday": -27079776000000,
+        "uphone": "13111111111",
+        "uemail": "qwe",
+        "usex": "male",
+        "vip": "1",
+        "headlike": "http://localhost:3000/forum/forum_03.jpg",
+        "qid": "1",
+        "uname": "da"
+      },
+      "peoplelike": 0,
+      "peoplewatch": 0,
+      "tdate": 1531073297715
+>>>>>>> 19d5102562f719035dc9ad6236ce5fbc371fce3b
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+$fontsize:12px; 
+$fontfamily:"微软雅黑";
+$fontcolor:#666666;
+$searchborder:1px solid #d6000f;
+a:hover {
+    text-decoration: none;
+}
+.login{
+    font-size: $fontsize;
+    font-family: $fontfamily;
+    color: $fontcolor;
+    padding-top: 2px;
+    position: relative;
+    z-index: 1;
+    span{
+        padding-right: 6px;
+        margin-right: 6px;
+    }
+}
+.searchbox{
+    position: relative;
+    z-index: 0;
+    .sousuo{
+        position: absolute;
+        bottom: 0;
+        left: 4px;
+    }
+    input{
+        padding-left: 20px;
+        border:$searchborder;
+        font-family: $fontfamily;
+        outline: none;
+        height: 24px;
+        vertical-align: top;
+        width:185px;
+    }
+    button{
+        border:$searchborder;
+        background: #d6000f;
+        color: #fff;
+        height: 24px;
+        font-size: $fontsize;
+        font-family: $fontfamily;
+        outline: none;
+    }
+}
+.navHeader{
+    background: #333;
+    height: 40px;
+    ul>li{
+        width: 10%;
+        height: 40px;
+        float: left;
+        position: relative;
+        z-index: 200;
+        a{
+            text-align: center;
+            line-height: 40px;
+            display: block;
+            color: #fff;
+        }
+        &:hover{
+            background: #d6000f;            
+        }
+    }
+}
+.activeNav{
+    background: #d6000f;
+}
+.ridingCate,.health{
+    // height: 120px;
+    background: #333;
+    padding: 0px;
+    display: none;
+    div{
+        height: 40px;
+    }
+    a{
+        text-align: center;
+        line-height: 40px;
+        display: block;
+        color: #fff;
+        &:hover{
+            background: #d6000f;            
+        }
+    }
+}

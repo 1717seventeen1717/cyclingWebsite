@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import 'var.scss';
+$zero:0px;
+$n:none;
+$b:block;
+
+.container{
+    @media (min-width: 768px) {
+        width: 750px;}
+        @media (min-width: 992px) {
+        width: 970px;}
+        @media (min-width: 1200px) {
+        width: 1000px;}
+    .center-block{
+        width: 94%;
+        height: 100%;
+    }
+    
+}
+
+.first{
+    .top-ul{
+        border-bottom: 1px #f8f8f8 solid; 
+    }
+    
+    .bottom-ul{
+        border-top:1px solid #adadad;
+    }
+}
+
+.third{
+    .top-ul{
+        border-bottom: 1px #f8f8f8 solid; 
+    }
+    
+    .bottom-ul{
+        border-top:1px solid #adadad;
+    }
+}
+
+.second{
+    .top-ul{
+        border-bottom: 1px #f8f8f8 solid; 
+    }
+    
+    .bottom-ul{
+        border-top:1px solid #adadad;
+    }
+}
+
+
+.left-active-sapn{
+    color: #d6000f;
+    border-bottom:1px solid #d6000f;
+    text-align: left;
+    font-size: 28px;
+    padding-bottom:10px;
+}
+
+
+
+
+.normalspan{
+    border-bottom:1px solid #999999;
+}
+
+.redStyle{
+    color: #d6000f;
+}
+
+li{
+    list-style: $n;
+}
+a{
+    color:#999999;
+}
+a:hover{
+    color: #d6000f;
+    text-decoration: none;
+}
+
+.left-span{
+    text-align: left;
+    font-size: 28px;
+    padding-bottom:10px; 
+    border-bottom:1px #999999 solid;
+}
+.secondmodel{
+    margin-bottom:53px;
+    margin-top:53px;
+}
+.noPaddingUl{
+    padding-left:$zero;
+    padding-right:$zero;
+    margin: 0;
+    .pc_product-li{
+        padding:0;
+        // padding-bottom:9px;
+        // margin-bottom: -9px;
+        cursor: pointer;
+        padding-bottom: 9px;
+    }
+    .middle-li{
+        border-left: 1px #f8f8f8 solid;
+        border-right: 1px #f8f8f8 solid;
+    }
+    .left-li{
+        border-right:1px solid #adadad;
+    }
+    .right-li{
+        padding:0;
+        padding-bottom:9px;        
+        border-left:1px solid #adadad;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+}
+
+
+
+.product-detail{
+    margin-top: 45px;
+    .title{
+        font-size:12px;
+    }
+    .price{
+        font-size:14px;
+    }
+}
+
+.pc_banner-product{
+    padding:105px $zero $zero;
+    position: relative;
+    box-sizing: border-box;
+    top:9px;
+}
+.banner-shadow{
+    box-shadow: 0 0 10px 5px #f3f0f0;
+}
+
+// .banner-product:hover{
+//     transform: translateY(-20px);
+//     box-shadow: 0 0 8px #f4f2f2;
+// }

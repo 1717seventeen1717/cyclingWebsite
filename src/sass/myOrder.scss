@@ -1,0 +1,141 @@
+.padding_l{
+    padding: 30px 30px 0 30px;
+}
+.myorderWord{
+    font-size: 30px;
+    color: #d6000f;
+    font-weight: 600px;
+}
+.seach-order{
+    border: #d6000f 2px solid;
+    height: 30px;
+    width: 406px;
+    position: relative;
+    // i{
+    //     position: absolute;
+    //     left:43px;
+    //     top:1px;
+    //     color: #888888;
+    // }
+    .select-list,input{
+        height: 25px;
+        border: 0;
+        outline: none;
+    }
+    input{
+        width: 278px;
+        border-left: 1px solid #e8e8e8;
+    }
+    .select-list{
+        // appearance:none;
+        // -moz-appearance:none;
+        // -webkit-appearance:none;
+        background: #f2f2f2;
+        color: #888888;
+        width: 68px;
+        padding-left: 10px; 
+        position: relative;
+        z-index:1;
+    }
+    button{
+        background: #d6000f;
+        height: 26px;
+        width: 56px;
+        border: 0;
+        vertical-align: top;
+        color: #fff;
+    }
+}
+.allpro{
+    border-bottom: 2px #e8e8e8 solid;
+    padding-bottom: 10px;
+    a,span{
+        font-size:18px;
+        color:#333333;
+        line-height:0px;
+        margin-right: 40px;
+    }
+}
+.prolist{
+    margin-top: 32px;
+}
+// 订单表格
+.orderList{
+    tr{
+        border:solid 2px #e8e8e8;
+        vertical-align: top;
+        td{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            &:nth-of-type(1){
+                width: 29px;
+                text-align: center;
+            }
+            &:nth-of-type(2){
+                width: 72px;
+            }
+            &:nth-of-type(3){
+                text-align: center;
+                width: 196px;
+                padding: 10px 39px 0;
+            }
+            &:nth-of-type(4){
+                p{margin:0}
+                text-align: left;
+                width: 244px;
+                padding-right: 74px;
+                color:#888888;
+            }
+            &:nth-of-type(5){
+                width: 112px;
+                text-align: center;
+            }
+            &:nth-of-type(6){
+                width: 90px;
+                text-align: center;
+                input{
+                    width: 30px;
+                    height: 20px;
+                    text-align: center;
+                    vertical-align: top;
+                }
+                button{
+                    padding: 0;
+                    width: 14px;
+                    height: 20px;
+                    border: 1px #a4a4a4 solid;
+                    outline: none;
+                    &:nth-of-type(1){
+                        border-right: 0;
+                    }
+                    &:nth-of-type(2){
+                        border-left: 0;
+                    }
+                }
+            }
+            &:nth-of-type(7){
+                width: 114px;
+                text-align: center;
+                color: #d6000f;
+            }
+            &:nth-of-type(8){
+                p{
+                    margin: 0;
+                }
+                width: 114px;
+                text-align: left;
+                padding-left: 20px;
+            }
+        }
+    }
+    .pic{
+        width: 70px;
+        height: 70px;
+        border: 1px #e8e8e8 solid;
+        img{
+            width: 100%;
+            margin-top: 9px;
+        }
+    }
+    
+}

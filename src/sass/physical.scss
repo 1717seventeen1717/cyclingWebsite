@@ -1,0 +1,27 @@
+.tineng{
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: -40px;
+    background: url(../../img/physical/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%; 
+}
+.container-tineng{
+    width: 518px;
+    h2{
+        text-align: center;
+        padding-top: 16px;
+        color: #333333;
+        margin-bottom: 24px;
+    }
+    .tn-word{
+        p{
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    }
+}

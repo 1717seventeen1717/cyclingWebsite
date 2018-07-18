@@ -1,0 +1,310 @@
+// body{
+//     background-color: #f3f3f3;
+// }
+.Forum {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: -40px;
+    background-color: #f3f3f3;
+    .row {
+        width: 763px;
+        background-color: white;
+    }
+}
+
+.img-circle {
+    width: 60px;
+    height: 60px;
+}
+
+.leftf {
+    width: 783px;
+    background-color: white;
+    padding: 20px;
+    height: 100px;
+    .chuang {
+        margin-left: -45px;
+        p:nth-of-type(1) {
+            font-size: 22px;
+            color: #333333;
+        }
+        p:nth-of-type(2) {
+            font-size: 11px;
+            color: #999999;
+        }
+    }
+}
+
+.left1 {
+    width: 783px;
+    background-color: white;
+    padding: 20px;
+    // height: 100px;
+    .chuang {
+        margin-left: -45px;
+        p {
+            font-size: 11px;
+            color: #999999;
+        }
+        p:nth-of-type(2) {
+            margin-top: 40px;
+            text-align: center;
+        }
+    }
+}
+
+.left2 {
+    width: 783px;
+    background-color: white;
+    padding: 20px;
+    min-height: 154px;
+    padding-bottom: 14px;
+    .chuang {
+        margin-left: -45px;
+        p {
+            font-size: 12px;
+            margin: 0;
+            color: #999999;
+            text-indent: 2em;
+            line-height: 18px;
+            height: 18px;
+            span{
+                padding-left: 2em;
+            }
+        }
+    }
+}
+
+.left3 {
+    background-color: white;
+    width: 783px;
+    height: 563px;
+    img {
+        width: 748px;
+        height: 563px;
+        ;
+    }
+}
+
+.left4 {
+    width: 783px;
+    color: #999999;
+    background-color: white;
+    padding: 20px;
+    height: 200px;
+    img {
+        position: relative;
+        z-index: 100;
+    }
+    .chuang {
+        p:nth-of-type(1) {
+            margin-left: -10px;
+            width: 660px;
+            margin-top: 10px;
+            padding: 12px 0 12px 20px;
+            background-color: #e8e8e8;
+            .huifu {
+                display: block;
+                margin-right: 20px;
+                font-size: 14px;
+                float: right;
+                cursor: pointer;
+            }
+        }
+        p:nth-of-type(2) {
+            font-size: 11px;
+            width: 660px;
+            padding-left: 34px;
+        }
+    }
+}
+
+.left5 {
+    width: 783px;
+    color: #999999;
+    background-color: white;
+    padding: 20px;
+    height: 214px;
+    .chuang {
+        textarea {
+            margin-left: -50px;
+            width: 500px;
+            height: 120px;
+            ;
+        }
+        button {
+            margin-top: 70px;
+            margin-left: -500px;
+        }
+    }
+}
+
+.zongright {
+    position: absolute;
+    top: -20px;
+    // left: 607px;
+    right: 230px;
+}
+
+.rightqd {
+    background-color: red;
+    position: relative;
+    left: 230px;
+    top: -98px;
+    float: right;
+    width: 200px;
+    height: 40px;
+    button {
+        position: relative;
+        width: 100px;
+        height: 40px;
+        color: white;
+        border: 0;
+        outline: 0;
+        background-color: red;
+    }
+    ul {
+        position: relative;
+        right: -100px;
+        top: -38px;
+        width: 98px;
+        height: 36px;
+        background-color: white
+    }
+    li:nth-of-type(1) {
+        position: relative;
+        right: 38px;
+        height: 18px;
+        width: 94px;
+        color: #888888;
+        border-bottom: 1px solid #dddddd;
+    }
+    li:nth-of-type(2) {
+        position: relative;
+        right: 38px;
+        height: 18px;
+        width: 94px;
+        color: #888888;
+    }
+}
+
+.right1 {
+    background-color: white;
+    position: relative;
+    left: 430px;
+    float: right;
+    top: -48px;
+    width: 200px;
+    height: 225px;
+    ul {
+        li:nth-of-type(1) {
+            font-weight: bolder;
+            position: relative;
+            width: 140px;
+            left: -10px;
+            font-size: 13px;
+            color: #333333;
+            padding: 10px 0 10px 0;
+            border-bottom: 1px solid #dddddd;
+        }
+        img {
+            margin-top: 5px;
+            margin-left: -10px;
+            width: 140px;
+            // height: 140px;
+        }
+        li:nth-of-type(3) {
+            button {
+                position: relative;
+                width: 65px;
+                height: 20px;
+                background-color: red;
+                left: 60px;
+                top: 10px;
+                font-size: 13px;
+                color: white;
+                border: 0;
+                outline: 0;
+            }
+        }
+    }
+}
+
+.right2 {
+    background-color: white;
+    position: relative;
+    left: 430px;
+    top: 190px;
+    width: 200px;
+    height: 180px;
+    ul {
+        position: relative;
+        top: -217px;
+        left: -10px;
+        color: #333333;
+        li{
+            font-weight: bolder;
+            p{
+                font-weight:normal;
+                color: #999999;
+                padding-top: 5px;
+            }
+        }
+        li:nth-of-type(1) {
+            width: 140px;
+            padding: 10px 0 10px 0;
+            border-bottom: 1px solid #dddddd;
+        }
+    }
+}
+.ureply{
+    position: absolute;
+    z-index: 1000;
+    top: 48px;
+    left: 100px;
+    background: #ffffff;
+    display: none;
+    .Iwant{
+        height: 40px;
+        width: 600px;
+        background: #e8e8e8;
+        border: solid 1px #cccccc;
+        font-size: 18px;
+        padding-left: 30px;
+        line-height: 40px;
+        color: #666;
+        .closeX{
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            color: #999;
+            cursor: pointer;
+        }
+    }
+    .reply-con{
+        height: 296px;
+        border: solid 1px #cccccc;
+        border-top: 0;
+        padding-top: 48px;
+        padding-left: 30px;
+        span{
+            vertical-align: top;
+            font-size: 18px;
+            color: #666;
+        }
+        textarea{
+            height: 120px;
+            width: 443px;
+        }
+    }
+    .reply-btn button{
+        background: #d6000f;
+        border: 0;
+        color: #ffffff;
+        border-radius: 3px;
+        margin: 25px 0 0 52px;
+        height: 34px;
+        width: 100px;
+    }
+}

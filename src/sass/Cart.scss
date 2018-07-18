@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import 'var.scss';
+@import 'myOrder.scss';
+$zero:0px;
+$n:none;
+$b:block;
+$color:#d6000f;
+
+.mainCart{
+    .detail{
+        display: inline-block;
+        float: left;
+        margin: 0;
+    }
+    .allpro{
+        padding-bottom: 0;
+        box-sizing: border-box;
+        .redUnderLine{
+            border-bottom:3px solid $color;
+        }
+        
+    }
+    .noPadding{
+        padding:0;
+    }
+    li{
+        display:inline-block;
+        height: 100%;
+        padding-bottom: 10px;
+       
+    }
+    .top-ul{
+        .redUnderLine{
+            border-bottom:3px solid $color;
+        }
+        .selectedA{
+            color: $color;
+        }
+        span{
+            color: $color;
+        }
+        border-bottom:2px solid #e8e8e8;
+        width:100%;
+        .borderA{
+            border-right:1px solid #999999;
+            padding-right:20px;
+            font-size:18px;
+            line-height: 18px;
+            display: inline-block;
+            height: 18px;
+        }
+        .bigA{
+            padding:0 20px;
+        }
+        .selected{
+            margin-left:40%;
+            a{
+                font-size:12px;
+            }
+            .total{
+                color:$color;
+                margin:0 10px;
+            }
+            .buy{
+                background: #888888;
+                border:none;
+                font-size:12px;
+                line-height:20px;
+                padding:0 10px;
+            }
+        }
+    }
+
+    .havePadding{
+        padding-top:20px;
+    }
+
+    .bottomFunction{
+        width:100%;
+        background: #fff;
+        border:0;
+        .selected{
+            margin-left:82%;
+            a{
+                font-size:12px;
+            }
+            .total{
+                color:$color;
+                margin:0 10px;
+            }
+            .buy{
+                background: #888888;
+                border:none;
+                font-size:12px;
+                line-height:20px;
+                padding:0 10px;
+            }
+        }
+    }
+}

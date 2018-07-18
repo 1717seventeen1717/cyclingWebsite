@@ -1,0 +1,56 @@
+.bttupian {
+    margin-top: 20px;
+    img {
+        width: 1000px;
+        height: 355px;
+    }
+}
+
+.bttupianx {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    padding-left: 0px;
+    width: 790px;
+    margin-top: 10px;
+    background-color: white;
+    .xtupian {
+        img {
+            width: 240px;
+            height: 165px;
+        }
+        p {
+            color: #999999;
+            &:nth-of-type(3){
+                overflow:hidden; 
+                text-overflow:ellipsis;
+                display:-webkit-box; 
+                -webkit-box-orient:vertical;
+                -webkit-line-clamp:2; 
+            }
+        }
+        p:nth-of-type(1) {
+            font-size: 18px;
+            color: black;
+            padding-bottom: 20px;
+        }
+        p:nth-of-type(4) {
+            padding-top: 20px;
+        }
+    }
+}
+.margin{
+    margin-top: -15px;
+}
+.xuxian{
+    width: 750px;
+    height: 3px;
+    border-bottom: 1px dashed #999999;
+    margin-left: -260px;
+    margin-top: 20px;
+}
+
+.zongright1{
+    margin-top: 503px;
+    margin-left: 22px;
+}

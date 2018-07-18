@@ -1,0 +1,165 @@
+.activeCarousel{
+    background: #f6000f;
+}
+.carouselCricle{
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 470px;
+    z-index: 100;
+    li{
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        background: #cccccc;
+        text-indent: -999px;
+        float: left;
+    }
+    
+}
+.border_bottom{
+    border-bottom: #cccccc 2px solid;
+    width: 400px;
+    float: left;
+    height: 79px;
+}
+.newList{
+    width: 200px;
+    height: 79px;
+    float: left;
+    text-align: center;
+    position: relative;
+    .lcricle01{
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top:74px; 
+        width: 8px;
+        height: 8px;
+        background: #cccccc;
+        text-indent: -1000px;
+    }
+    .lcricle02{
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        top:74px; 
+        width: 8px;
+        height: 8px;
+        background: #cccccc;
+    }
+    .xptj{
+        display: inline-block;
+        font-size: 40px;
+        margin-top: 51px;
+    }
+}
+.newListBox{
+    height: 459px;
+    background: #f2f2f2;
+    &:nth-of-type(2){
+        height: 434px;
+        margin-bottom: 33px;
+    }
+    .smallTitle{
+        font-family: 'Roboto-Black';
+        font-size: 30px;
+        padding-top: 30px;
+        color:#666666;
+        text-align: center;
+    }
+    .proList{
+        margin-top: 35px;
+    }
+}
+
+//新品推荐轮播图
+.Box_con{
+    span{
+        margin-top: 105px;
+        cursor: pointer;
+        &:nth-of-type(1){
+            margin-left: 50px;
+        }
+        &:nth-of-type(2){
+            margin-right: 50px;
+        }
+    }
+    .div_propic{
+        margin-left: 115px;
+        width: 758px;
+        position: relative;
+        overflow: hidden;
+        .propic{
+            padding: 0;
+            float: left;
+            position: relative;
+            width: 1536px;
+            li{
+                float: left;
+                height: 262px;
+                width: 246px;
+                overflow: hidden;
+                margin-right: 10px;
+            }
+        }
+    }
+    .newpro_title{
+        background: #fff;
+        // height: 82px;
+        text-align: center;
+        p{
+            margin: 0;
+            &:nth-of-type(1){
+                height: 50px;
+                line-height: 50px;
+                color: #666666;
+            }
+            &:nth-of-type(2){
+                padding-bottom: 21px;
+                font-size: 14px;
+                color:#f6000f;
+            }
+        }
+    }
+    
+}
+// 新闻中心
+.newsCenter{
+    padding: 0 0 0 53px;
+    li{
+        float: left;
+        text-align: center;
+        width: 242px;
+        height: 258px;
+        p{
+            &:nth-of-type(1){
+                font-size: 18px;
+                color: #333333;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                line-height: 24px;
+                width:233px;
+            }
+            &:nth-of-type(2){
+                padding-left:15px; 
+                width:214px;
+                overflow:hidden; 
+                text-overflow:ellipsis;
+                display:-webkit-box; 
+                -webkit-box-orient:vertical;
+                -webkit-line-clamp:2; 
+            }
+        }
+    }
+    // .newspic1{
+    //     margin-left: 53px;
+    // }
+    .newspic{
+        margin-left: 79px;
+    }
+}
+
+//轮播图圆点
+.swiper-pagination-bullets .swiper-pagination-bullet{background: #cccccc;opacity: 1;}
+.swiper-pagination-bullets .swiper-pagination-bullet-active{background: #d6000f;}

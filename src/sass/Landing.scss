@@ -1,0 +1,84 @@
+.container-fluid {
+    width: 1200px;
+    height: 710px;
+    background-image:url(require("./img/home/login.jpg")) no-repeat;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.login-container {
+    margin-top: 320px;
+}
+
+.form-signin {
+    padding: 30px;
+    margin-right: 100px;
+    float: right;
+    width: 335px;
+    height: 390px;
+    // background-color: #ffffff;
+    // opacity: 0.8;
+    background: rgba(255, 255, 255, 0.8);
+    div {
+        margin-bottom: 10px;
+        p {
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.biaoti {
+    height: 20px;
+    span{
+        color: red;
+    }
+}
+
+.li1 {
+    margin-left: -40px;
+    float: left;
+    font-size: 16px;
+    color: black;
+}
+
+.li2 {
+    float: right;
+    font-size: 14px;
+    color: black;
+}
+.forgot2{
+    vertical-align: top;
+}
+.forgot {
+    margin-top: 10px;
+    input {
+        margin: 5px 5px;
+        vertical-align: middle;
+    }
+    span{
+        color: red;
+        float: right;
+    }
+}
+
+a {
+    color: red;
+}
+
+.logoleft {
+    margin-top: 70px;
+    p {
+        color: #ffffff;
+        &:nth-of-type(1) {
+            font-size: 40px;
+        }
+    }
+}
+.zma{
+    margin-left: -5px;
+}
+.account-page{
+    span{
+        color: red;
+    }
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import 'var.scss';
+$zero:0px;
+$n:none;
+$b:block;
+$color:#d6000f;
+
+.redStyle{
+    color: $color;
+}
+
+.CartFunction{
+
+
+.bottomFunction{
+    height: 50px;
+    margin-top:4px;
+    width:100%;
+    background: #f2f2f2;
+    border:1px solid #e8e8e8;
+    padding-left:8px; 
+    a{
+        font-size:12px;
+        display: inline-block;
+        line-height: 50px;
+        color:#595959;
+    }
+    .noRadius{
+        border-radius: $zero;
+    }
+    input[type=checkbox], input[type=radio]{
+        margin:0;
+    }
+    
+    .total{
+        display: inline-block;
+        width:50px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+        vertical-align: middle;
+    }
+    i{
+        font-style: normal;
+        margin-left:10px;
+    }
+}
+.bottomFunction{
+    background: #f2f2f2;
+    .clearbaby{
+        float:left;
+    }
+    .selected{
+        float:right;
+        height: 100%;
+        margin-left:40%;
+        .just-buy{
+            height: 100%;
+            display: inline-block;
+            background: #888888;
+            color: #ffffff;
+            text-align: center;
+            line-height: 36px;
+            font-size: 18px;
+            width: 80px;
+        }
+    }
+    
+}
+
+}
